@@ -1,6 +1,7 @@
 
 const puppeteer = require('puppeteer');
 var net = require('net');
+var request = require('request');
 var HOST = '127.0.0.1';
 var PORT = 6969;
 var browserWSEndpoint = null;
@@ -25,14 +26,30 @@ puppeteer.launch({
 // 在每一个“connection”事件中，该回调函数接收到的socket对象是唯一的
 net.createServer(function(sock) {
   // 我们获得一个连接 - 该连接自动关联一个socket对象
-  console.log('CONNECTED: ' +
-      sock.remoteAddress + ':' + sock.remotePort);
-  sock.write('{"ip":'+WS_IP+',"port":'+WS_PORT+'}');
+  console.log('CONNECTED: ' + sock.remoteAddress + ':' + sock.remotePort);
   // 为这个socket实例添加一个"data"事件处理函数
   sock.on('data', function(data) {
-    console.log('DATA ' + sock.remoteAddress + ': ' + data);
-    // 回发该数据，客户端将收到来自服务端的数据
-    sock.write('You said "' + data + '"');
+    if(Tools.IsJsonString(data)){
+        var DataObj = JSON.parse(data)
+        console.log(DataObj)
+        if(DataObj.type = 'get_list'){
+          var url = 'http://'+WS_IP+':'+WS_PORT+'/json';
+          request({
+              url: url,
+              method: "GET",
+              json: true,
+              headers: {
+                  "content-type": "application/json",
+              }
+          }, function(error, response, body) {
+              if (!error && response.statusCode == 200) {
+                console.log(response,body,error)
+              }
+          });
+        }
+    }else{
+      sock.write('data is not json!!');
+    }
 
   });
 
