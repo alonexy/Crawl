@@ -1,6 +1,7 @@
 <?php
 ##  https://chromedevtools.github.io/devtools-protocol/1-2/Runtime#type-ScriptId
-##
+## http://127.0.0.1:59538/json/new?http://www.alonexy.com
+## http://127.0.0.1:59538/json/close/{pageid}
 require_once __DIR__ . '/vendor/autoload.php';
 use Workerman\Worker;
 use Workerman\Connection\AsyncTcpConnection;
@@ -10,9 +11,10 @@ use Workerman\Email;
 date_default_timezone_set('PRC');
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
-$logPath =  __DIR__.'/Logs/TicketsServerTest.log';
+$logPath =  __DIR__.'/Logs/init.log';
 $worker = new Worker();
 $worker->count = 1;
+
 $worker->onWorkerStart = function($worker){
     //连接Redis
     global $factory;
@@ -27,7 +29,7 @@ $worker->onWorkerStart = function($worker){
         var_dump($e->getMessage());
         echo "\n";
     });
-    $con = new AsyncTcpConnection("ws://127.0.0.1:57624/devtools/page/7ACD2C4D97E9AA709CF4DDB2CDF4A87C");
+    $con = new AsyncTcpConnection("ws://127.0.0.1:54742/devtools/page/AA70E6D36386C7BE5EEB0FBA8026051B");
     //环境区分 正式 1 模拟 0
     $con->ServerENV = 0;
     $con->onConnect = function($con) {
