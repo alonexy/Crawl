@@ -4,25 +4,57 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6
+class ComposerStaticInitde330ffa10d3f1557656c343c9b6102d
 {
     public static $files = array (
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
-        '6b06ce8ccf69c43a60a1e48495a034c9' => __DIR__ . '/..' . '/react/promise-timer/src/functions.php',
+        '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
     );
 
-    public static $firstCharsPsr4 = array (
-        'W' => true,
-        'R' => true,
-        'P' => true,
-        'D' => true,
-        'C' => true,
+    public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Workerman\\' => 10,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Ctype\\' => 23,
+        ),
+        'R' => 
+        array (
+            'React\\Stream\\' => 13,
+            'React\\Socket\\' => 13,
+            'React\\SocketClient\\' => 19,
+            'React\\Promise\\Timer\\' => 20,
+            'React\\Promise\\' => 14,
+            'React\\EventLoop\\' => 16,
+            'React\\Dns\\' => 10,
+            'React\\Cache\\' => 12,
+        ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
+        'C' => 
+        array (
+            'Clue\\React\\Redis\\' => 17,
+            'Channel\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Workerman\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
         'React\\Stream\\' => 
         array (
@@ -92,165 +124,16 @@ class ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6
     );
 
     public static $classMap = array (
-        'Channel\\Client' => __DIR__ . '/../..' . '/Channel/Client.php',
-        'Channel\\Server' => __DIR__ . '/../..' . '/Channel/Server.php',
-        'Clue\\React\\Redis\\Client' => __DIR__ . '/..' . '/clue/redis-react/src/Client.php',
-        'Clue\\React\\Redis\\ConnectionUpcaster' => __DIR__ . '/..' . '/clue/redis-react/src/ConnectionUpcaster.php',
-        'Clue\\React\\Redis\\ConnectorUpcaster' => __DIR__ . '/..' . '/clue/redis-react/src/ConnectorUpcaster.php',
-        'Clue\\React\\Redis\\Factory' => __DIR__ . '/..' . '/clue/redis-react/src/Factory.php',
-        'Clue\\React\\Redis\\StreamingClient' => __DIR__ . '/..' . '/clue/redis-react/src/StreamingClient.php',
-        'Clue\\Redis\\Protocol\\Factory' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Factory.php',
-        'Clue\\Redis\\Protocol\\Model\\BulkReply' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/BulkReply.php',
-        'Clue\\Redis\\Protocol\\Model\\ErrorReply' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/ErrorReply.php',
-        'Clue\\Redis\\Protocol\\Model\\IntegerReply' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/IntegerReply.php',
-        'Clue\\Redis\\Protocol\\Model\\ModelInterface' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/ModelInterface.php',
-        'Clue\\Redis\\Protocol\\Model\\MultiBulkReply' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/MultiBulkReply.php',
-        'Clue\\Redis\\Protocol\\Model\\Request' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/Request.php',
-        'Clue\\Redis\\Protocol\\Model\\StatusReply' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Model/StatusReply.php',
-        'Clue\\Redis\\Protocol\\Parser\\MessageBuffer' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Parser/MessageBuffer.php',
-        'Clue\\Redis\\Protocol\\Parser\\ParserException' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Parser/ParserException.php',
-        'Clue\\Redis\\Protocol\\Parser\\ParserInterface' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Parser/ParserInterface.php',
-        'Clue\\Redis\\Protocol\\Parser\\RequestParser' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Parser/RequestParser.php',
-        'Clue\\Redis\\Protocol\\Parser\\ResponseParser' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Parser/ResponseParser.php',
-        'Clue\\Redis\\Protocol\\Serializer\\RecursiveSerializer' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Serializer/RecursiveSerializer.php',
-        'Clue\\Redis\\Protocol\\Serializer\\SerializerInterface' => __DIR__ . '/..' . '/clue/redis-protocol/src/Clue/Redis/Protocol/Serializer/SerializerInterface.php',
-        'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
-        'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
-        'Dotenv\\Exception\\InvalidCallbackException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidCallbackException.php',
-        'Dotenv\\Exception\\InvalidFileException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidFileException.php',
-        'Dotenv\\Exception\\InvalidPathException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidPathException.php',
-        'Dotenv\\Exception\\ValidationException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ValidationException.php',
-        'Dotenv\\Loader' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Loader.php',
-        'Dotenv\\Validator' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Validator.php',
-        'Evenement\\EventEmitter' => __DIR__ . '/..' . '/evenement/evenement/src/Evenement/EventEmitter.php',
-        'Evenement\\EventEmitterInterface' => __DIR__ . '/..' . '/evenement/evenement/src/Evenement/EventEmitterInterface.php',
-        'Evenement\\EventEmitterTrait' => __DIR__ . '/..' . '/evenement/evenement/src/Evenement/EventEmitterTrait.php',
-        'PHPMailer\\PHPMailer\\Exception' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/Exception.php',
-        'PHPMailer\\PHPMailer\\OAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/OAuth.php',
-        'PHPMailer\\PHPMailer\\PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/PHPMailer.php',
-        'PHPMailer\\PHPMailer\\POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/POP3.php',
-        'PHPMailer\\PHPMailer\\SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/SMTP.php',
-        'React\\Cache\\ArrayCache' => __DIR__ . '/..' . '/react/cache/src/ArrayCache.php',
-        'React\\Cache\\CacheInterface' => __DIR__ . '/..' . '/react/cache/src/CacheInterface.php',
-        'React\\Dns\\BadServerException' => __DIR__ . '/..' . '/react/dns/src/BadServerException.php',
-        'React\\Dns\\Config\\Config' => __DIR__ . '/..' . '/react/dns/src/Config/Config.php',
-        'React\\Dns\\Config\\FilesystemFactory' => __DIR__ . '/..' . '/react/dns/src/Config/FilesystemFactory.php',
-        'React\\Dns\\Config\\HostsFile' => __DIR__ . '/..' . '/react/dns/src/Config/HostsFile.php',
-        'React\\Dns\\Model\\HeaderBag' => __DIR__ . '/..' . '/react/dns/src/Model/HeaderBag.php',
-        'React\\Dns\\Model\\Message' => __DIR__ . '/..' . '/react/dns/src/Model/Message.php',
-        'React\\Dns\\Model\\Record' => __DIR__ . '/..' . '/react/dns/src/Model/Record.php',
-        'React\\Dns\\Protocol\\BinaryDumper' => __DIR__ . '/..' . '/react/dns/src/Protocol/BinaryDumper.php',
-        'React\\Dns\\Protocol\\Parser' => __DIR__ . '/..' . '/react/dns/src/Protocol/Parser.php',
-        'React\\Dns\\Query\\CachedExecutor' => __DIR__ . '/..' . '/react/dns/src/Query/CachedExecutor.php',
-        'React\\Dns\\Query\\CancellationException' => __DIR__ . '/..' . '/react/dns/src/Query/CancellationException.php',
-        'React\\Dns\\Query\\Executor' => __DIR__ . '/..' . '/react/dns/src/Query/Executor.php',
-        'React\\Dns\\Query\\ExecutorInterface' => __DIR__ . '/..' . '/react/dns/src/Query/ExecutorInterface.php',
-        'React\\Dns\\Query\\HostsFileExecutor' => __DIR__ . '/..' . '/react/dns/src/Query/HostsFileExecutor.php',
-        'React\\Dns\\Query\\Query' => __DIR__ . '/..' . '/react/dns/src/Query/Query.php',
-        'React\\Dns\\Query\\RecordBag' => __DIR__ . '/..' . '/react/dns/src/Query/RecordBag.php',
-        'React\\Dns\\Query\\RecordCache' => __DIR__ . '/..' . '/react/dns/src/Query/RecordCache.php',
-        'React\\Dns\\Query\\RetryExecutor' => __DIR__ . '/..' . '/react/dns/src/Query/RetryExecutor.php',
-        'React\\Dns\\Query\\TimeoutException' => __DIR__ . '/..' . '/react/dns/src/Query/TimeoutException.php',
-        'React\\Dns\\Query\\TimeoutExecutor' => __DIR__ . '/..' . '/react/dns/src/Query/TimeoutExecutor.php',
-        'React\\Dns\\RecordNotFoundException' => __DIR__ . '/..' . '/react/dns/src/RecordNotFoundException.php',
-        'React\\Dns\\Resolver\\Factory' => __DIR__ . '/..' . '/react/dns/src/Resolver/Factory.php',
-        'React\\Dns\\Resolver\\Resolver' => __DIR__ . '/..' . '/react/dns/src/Resolver/Resolver.php',
-        'React\\EventLoop\\ExtEventLoop' => __DIR__ . '/..' . '/react/event-loop/src/ExtEventLoop.php',
-        'React\\EventLoop\\Factory' => __DIR__ . '/..' . '/react/event-loop/src/Factory.php',
-        'React\\EventLoop\\LibEvLoop' => __DIR__ . '/..' . '/react/event-loop/src/LibEvLoop.php',
-        'React\\EventLoop\\LibEventLoop' => __DIR__ . '/..' . '/react/event-loop/src/LibEventLoop.php',
-        'React\\EventLoop\\LoopInterface' => __DIR__ . '/..' . '/react/event-loop/src/LoopInterface.php',
-        'React\\EventLoop\\StreamSelectLoop' => __DIR__ . '/..' . '/react/event-loop/src/StreamSelectLoop.php',
-        'React\\EventLoop\\Tick\\FutureTickQueue' => __DIR__ . '/..' . '/react/event-loop/src/Tick/FutureTickQueue.php',
-        'React\\EventLoop\\Tick\\NextTickQueue' => __DIR__ . '/..' . '/react/event-loop/src/Tick/NextTickQueue.php',
-        'React\\EventLoop\\Timer\\Timer' => __DIR__ . '/..' . '/react/event-loop/src/Timer/Timer.php',
-        'React\\EventLoop\\Timer\\TimerInterface' => __DIR__ . '/..' . '/react/event-loop/src/Timer/TimerInterface.php',
-        'React\\EventLoop\\Timer\\Timers' => __DIR__ . '/..' . '/react/event-loop/src/Timer/Timers.php',
-        'React\\Promise\\CancellablePromiseInterface' => __DIR__ . '/..' . '/react/promise/src/CancellablePromiseInterface.php',
-        'React\\Promise\\CancellationQueue' => __DIR__ . '/..' . '/react/promise/src/CancellationQueue.php',
-        'React\\Promise\\Deferred' => __DIR__ . '/..' . '/react/promise/src/Deferred.php',
-        'React\\Promise\\Exception\\LengthException' => __DIR__ . '/..' . '/react/promise/src/Exception/LengthException.php',
-        'React\\Promise\\ExtendedPromiseInterface' => __DIR__ . '/..' . '/react/promise/src/ExtendedPromiseInterface.php',
-        'React\\Promise\\FulfilledPromise' => __DIR__ . '/..' . '/react/promise/src/FulfilledPromise.php',
-        'React\\Promise\\LazyPromise' => __DIR__ . '/..' . '/react/promise/src/LazyPromise.php',
-        'React\\Promise\\Promise' => __DIR__ . '/..' . '/react/promise/src/Promise.php',
-        'React\\Promise\\PromiseInterface' => __DIR__ . '/..' . '/react/promise/src/PromiseInterface.php',
-        'React\\Promise\\PromisorInterface' => __DIR__ . '/..' . '/react/promise/src/PromisorInterface.php',
-        'React\\Promise\\RejectedPromise' => __DIR__ . '/..' . '/react/promise/src/RejectedPromise.php',
-        'React\\Promise\\Timer\\TimeoutException' => __DIR__ . '/..' . '/react/promise-timer/src/TimeoutException.php',
-        'React\\Promise\\UnhandledRejectionException' => __DIR__ . '/..' . '/react/promise/src/UnhandledRejectionException.php',
-        'React\\SocketClient\\ConnectionInterface' => __DIR__ . '/..' . '/react/socket-client/src/ConnectionInterface.php',
-        'React\\SocketClient\\Connector' => __DIR__ . '/..' . '/react/socket-client/src/Connector.php',
-        'React\\SocketClient\\ConnectorInterface' => __DIR__ . '/..' . '/react/socket-client/src/ConnectorInterface.php',
-        'React\\SocketClient\\DnsConnector' => __DIR__ . '/..' . '/react/socket-client/src/DnsConnector.php',
-        'React\\SocketClient\\SecureConnector' => __DIR__ . '/..' . '/react/socket-client/src/SecureConnector.php',
-        'React\\SocketClient\\StreamConnection' => __DIR__ . '/..' . '/react/socket-client/src/StreamConnection.php',
-        'React\\SocketClient\\StreamEncryption' => __DIR__ . '/..' . '/react/socket-client/src/StreamEncryption.php',
-        'React\\SocketClient\\TcpConnector' => __DIR__ . '/..' . '/react/socket-client/src/TcpConnector.php',
-        'React\\SocketClient\\TimeoutConnector' => __DIR__ . '/..' . '/react/socket-client/src/TimeoutConnector.php',
-        'React\\SocketClient\\UnixConnector' => __DIR__ . '/..' . '/react/socket-client/src/UnixConnector.php',
-        'React\\Socket\\Connection' => __DIR__ . '/..' . '/react/socket/src/Connection.php',
-        'React\\Socket\\ConnectionInterface' => __DIR__ . '/..' . '/react/socket/src/ConnectionInterface.php',
-        'React\\Socket\\Connector' => __DIR__ . '/..' . '/react/socket/src/Connector.php',
-        'React\\Socket\\ConnectorInterface' => __DIR__ . '/..' . '/react/socket/src/ConnectorInterface.php',
-        'React\\Socket\\DnsConnector' => __DIR__ . '/..' . '/react/socket/src/DnsConnector.php',
-        'React\\Socket\\LimitingServer' => __DIR__ . '/..' . '/react/socket/src/LimitingServer.php',
-        'React\\Socket\\SecureConnector' => __DIR__ . '/..' . '/react/socket/src/SecureConnector.php',
-        'React\\Socket\\SecureServer' => __DIR__ . '/..' . '/react/socket/src/SecureServer.php',
-        'React\\Socket\\Server' => __DIR__ . '/..' . '/react/socket/src/Server.php',
-        'React\\Socket\\ServerInterface' => __DIR__ . '/..' . '/react/socket/src/ServerInterface.php',
-        'React\\Socket\\StreamEncryption' => __DIR__ . '/..' . '/react/socket/src/StreamEncryption.php',
-        'React\\Socket\\TcpConnector' => __DIR__ . '/..' . '/react/socket/src/TcpConnector.php',
-        'React\\Socket\\TimeoutConnector' => __DIR__ . '/..' . '/react/socket/src/TimeoutConnector.php',
-        'React\\Socket\\UnixConnector' => __DIR__ . '/..' . '/react/socket/src/UnixConnector.php',
-        'React\\Stream\\BufferedSink' => __DIR__ . '/..' . '/react/stream/src/BufferedSink.php',
-        'React\\Stream\\CompositeStream' => __DIR__ . '/..' . '/react/stream/src/CompositeStream.php',
-        'React\\Stream\\DuplexResourceStream' => __DIR__ . '/..' . '/react/stream/src/DuplexResourceStream.php',
-        'React\\Stream\\DuplexStreamInterface' => __DIR__ . '/..' . '/react/stream/src/DuplexStreamInterface.php',
-        'React\\Stream\\ReadableResourceStream' => __DIR__ . '/..' . '/react/stream/src/ReadableResourceStream.php',
-        'React\\Stream\\ReadableStream' => __DIR__ . '/..' . '/react/stream/src/ReadableStream.php',
-        'React\\Stream\\ReadableStreamInterface' => __DIR__ . '/..' . '/react/stream/src/ReadableStreamInterface.php',
-        'React\\Stream\\Stream' => __DIR__ . '/..' . '/react/stream/src/Stream.php',
-        'React\\Stream\\ThroughStream' => __DIR__ . '/..' . '/react/stream/src/ThroughStream.php',
-        'React\\Stream\\Util' => __DIR__ . '/..' . '/react/stream/src/Util.php',
-        'React\\Stream\\WritableResourceStream' => __DIR__ . '/..' . '/react/stream/src/WritableResourceStream.php',
-        'React\\Stream\\WritableStream' => __DIR__ . '/..' . '/react/stream/src/WritableStream.php',
-        'React\\Stream\\WritableStreamInterface' => __DIR__ . '/..' . '/react/stream/src/WritableStreamInterface.php',
-        'Workerman\\Autoloader' => __DIR__ . '/../..' . '/Autoloader.php',
-        'Workerman\\Connection\\AsyncTcpConnection' => __DIR__ . '/../..' . '/Connection/AsyncTcpConnection.php',
-        'Workerman\\Connection\\AsyncUdpConnection' => __DIR__ . '/../..' . '/Connection/AsyncUdpConnection.php',
-        'Workerman\\Connection\\ConnectionInterface' => __DIR__ . '/../..' . '/Connection/ConnectionInterface.php',
-        'Workerman\\Connection\\TcpConnection' => __DIR__ . '/../..' . '/Connection/TcpConnection.php',
-        'Workerman\\Connection\\UdpConnection' => __DIR__ . '/../..' . '/Connection/UdpConnection.php',
-        'Workerman\\Email' => __DIR__ . '/../..' . '/Email.php',
-        'Workerman\\Events\\Ev' => __DIR__ . '/../..' . '/Events/Ev.php',
-        'Workerman\\Events\\Event' => __DIR__ . '/../..' . '/Events/Event.php',
-        'Workerman\\Events\\EventInterface' => __DIR__ . '/../..' . '/Events/EventInterface.php',
-        'Workerman\\Events\\Libevent' => __DIR__ . '/../..' . '/Events/Libevent.php',
-        'Workerman\\Events\\React\\ExtEventLoop' => __DIR__ . '/../..' . '/Events/React/ExtEventLoop.php',
-        'Workerman\\Events\\React\\LibEventLoop' => __DIR__ . '/../..' . '/Events/React/LibEventLoop.php',
-        'Workerman\\Events\\React\\StreamSelectLoop' => __DIR__ . '/../..' . '/Events/React/StreamSelectLoop.php',
-        'Workerman\\Events\\Select' => __DIR__ . '/../..' . '/Events/Select.php',
-        'Workerman\\Events\\Swoole' => __DIR__ . '/../..' . '/Events/Swoole.php',
-        'Workerman\\Lib\\Timer' => __DIR__ . '/../..' . '/Lib/Timer.php',
-        'Workerman\\Protocols\\Frame' => __DIR__ . '/../..' . '/Protocols/Frame.php',
-        'Workerman\\Protocols\\Http' => __DIR__ . '/../..' . '/Protocols/Http.php',
-        'Workerman\\Protocols\\HttpCache' => __DIR__ . '/../..' . '/Protocols/Http.php',
-        'Workerman\\Protocols\\ProtocolInterface' => __DIR__ . '/../..' . '/Protocols/ProtocolInterface.php',
-        'Workerman\\Protocols\\Text' => __DIR__ . '/../..' . '/Protocols/Text.php',
-        'Workerman\\Protocols\\Websocket' => __DIR__ . '/../..' . '/Protocols/Websocket.php',
-        'Workerman\\Protocols\\Ws' => __DIR__ . '/../..' . '/Protocols/Ws.php',
-        'Workerman\\WebServer' => __DIR__ . '/../..' . '/WebServer.php',
-        'Workerman\\Worker' => __DIR__ . '/../..' . '/Worker.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->firstCharsPsr4 = ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6::$firstCharsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitedfd9e65210715d925bd5af18d1e35c6::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitde330ffa10d3f1557656c343c9b6102d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitde330ffa10d3f1557656c343c9b6102d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitde330ffa10d3f1557656c343c9b6102d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitde330ffa10d3f1557656c343c9b6102d::$classMap;
 
         }, null, ClassLoader::class);
     }

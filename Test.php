@@ -29,7 +29,7 @@ $worker->onWorkerStart = function($worker){
         var_dump($e->getMessage());
         echo "\n";
     });
-    $con = new AsyncTcpConnection("ws://127.0.0.1:54742/devtools/page/AA70E6D36386C7BE5EEB0FBA8026051B");
+    $con = new AsyncTcpConnection("ws://127.0.0.1:55728/devtools/page/94E402C99A999DD14DAE36EDCEF9FB6D");
     //环境区分 正式 1 模拟 0
     $con->ServerENV = 0;
     $con->onConnect = function($con) {
@@ -69,13 +69,13 @@ $worker->onWorkerStart = function($worker){
     };
     $con->connect();
 //    // 每2.5秒执行一次
-//    $time_interval = 2.5;
-//    \Workerman\Lib\Timer::add($time_interval, function()use($con)
-//    {
-//        global $RedisClient;
-//        $RedisClient->ping();
-//        $con->send('{"id":10000, "method": "Runtime.evaluate", "params": {"expression":"console.log(\'==heart==\')"}}');
-//    });
+    $time_interval = 2.5;
+    \Workerman\Lib\Timer::add($time_interval, function()use($con)
+    {
+        global $RedisClient;
+        $RedisClient->ping();
+        $con->send('{"id":10000, "method": "Runtime.evaluate", "params": {"expression":"console.log(\'==heart==\')"}}');
+    });
 };
 Worker::$stdoutFile = $logPath;
 Worker::runAll();

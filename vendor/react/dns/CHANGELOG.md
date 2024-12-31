@@ -1,5 +1,87 @@
 # Changelog
 
+## 0.4.19 (2019-07-10)
+
+*   Feature: Avoid garbage references when DNS resolution rejects on legacy PHP <= 5.6.
+    (#133 by @clue)
+
+## 0.4.18 (2019-09-07)
+
+*   Feature / Fix: Implement `CachingExecutor` using cache TTL, deprecate old `CachedExecutor`,
+    respect TTL from response records when caching and do not cache truncated responses.
+    (#129 by @clue)
+
+*   Feature: Limit cache size to 256 last responses by default. 
+    (#127 by @clue)
+
+*   Feature: Cooperatively resolve hosts to avoid running same query concurrently.
+    (#125 by @clue)
+
+## 0.4.17 (2019-04-01)
+
+*   Feature: Support parsing `authority` and `additional` records from DNS response.
+    (#123 by @clue)
+
+*   Feature: Support dumping records as part of outgoing binary DNS message.
+    (#124 by @clue)
+
+*   Feature: Forward compatibility with upcoming Cache v0.6 and Cache v1.0
+    (#121 by @clue)
+
+*   Improve test suite to add forward compatibility with PHPUnit 7,
+    test against PHP 7.3 and use legacy PHPUnit 5 on legacy HHVM.
+    (#122 by @clue)
+
+## 0.4.16 (2018-11-11)
+
+*   Feature: Improve promise cancellation for DNS lookup retries and clean up any garbage references.
+    (#118 by @clue)
+
+*   Fix: Reject parsing malformed DNS response messages such as incomplete DNS response messages,
+    malformed record data or malformed compressed domain name labels.
+    (#115 and #117 by @clue)
+
+*   Fix: Fix interpretation of TTL as UINT32 with most significant bit unset.
+    (#116 by @clue)
+
+*   Fix: Fix caching advanced MX/SRV/TXT/SOA structures.
+    (#112 by @clue)
+
+## 0.4.15 (2018-07-02)
+
+*   Feature: Add `resolveAll()` method to support custom query types in `Resolver`.
+    (#110 by @clue and @WyriHaximus)
+
+    ```php
+    $resolver->resolveAll('reactphp.org', Message::TYPE_AAAA)->then(function ($ips) {
+        echo 'IPv6 addresses for reactphp.org ' . implode(', ', $ips) . PHP_EOL;
+    });
+    ```
+
+*   Feature: Support parsing `NS`, `TXT`, `MX`, `SOA` and `SRV` records.
+    (#104, #105, #106, #107 and #108 by @clue)
+
+*   Feature: Add support for `Message::TYPE_ANY` and parse unknown types as binary data.
+    (#104 by @clue)
+
+*   Feature: Improve error messages for failed queries and improve documentation.
+    (#109 by @clue)
+
+*   Feature: Add reverse DNS lookup example.
+    (#111 by @clue)
+
+## 0.4.14 (2018-06-26)
+
+*   Feature: Add `UdpTransportExecutor`, validate incoming DNS response messages
+    to avoid cache poisoning attacks and deprecate legacy `Executor`.
+    (#101 and #103 by @clue)
+
+*   Feature: Forward compatibility with Cache 0.5
+    (#102 by @clue)
+
+*   Deprecate legacy `Query::$currentTime` and binary parser data attributes to clean up and simplify API.
+    (#99 by @clue)
+
 ## 0.4.13 (2018-02-27)
 
 *   Add `Config::loadSystemConfigBlocking()` to load default system config

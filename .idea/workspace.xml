@@ -1,48 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1043cbee-f045-4d7b-bec2-26810983d8be" name="默认的" comment="" />
-    <ignored path="Crawl.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="1043cbee-f045-4d7b-bec2-26810983d8be" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Crawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Crawl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puppeteerJs/Init.js" beforeDir="false" afterPath="$PROJECT_DIR$/puppeteerJs/Init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puppeteerJs/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/puppeteerJs/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puppeteerJs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/puppeteerJs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/src/ArrayCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/src/ArrayCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/src/CacheInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/cache/src/CacheInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/tests/ArrayCacheTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/cache/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/examples/04-query-a-and-aaaa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Model/HeaderBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Model/HeaderBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Model/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Model/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Model/Record.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Model/Record.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Protocol/BinaryDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Protocol/BinaryDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Protocol/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Protocol/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/CachedExecutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/CachedExecutor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/Executor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/Executor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/HostsFileExecutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/HostsFileExecutor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/RecordBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/RecordBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/RecordCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/RecordCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Query/RetryExecutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Query/RetryExecutor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Resolver/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Resolver/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/src/Resolver/Resolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/src/Resolver/Resolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/FunctionalResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/FunctionalResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Model/MessageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Model/MessageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Protocol/BinaryDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Protocol/BinaryDumperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Protocol/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Protocol/ParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RecordBagTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RecordBagTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RecordCacheTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RecordCacheTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RetryExecutorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Query/RetryExecutorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/FactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/FactoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/ResolveAliasesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/ResolveAliasesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/ResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/dns/tests/Resolver/ResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise-timer/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise-timer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise-timer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise-timer/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/FunctionRejectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/FunctionResolveTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/FunctionTimeoutTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise-timer/tests/TimeoutExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/CancellablePromiseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/CancellablePromiseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/CancellationQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/CancellationQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/Deferred.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/Deferred.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/ExtendedPromiseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/ExtendedPromiseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/FulfilledPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/FulfilledPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/LazyPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/LazyPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/Promise.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/Promise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/PromiseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/PromiseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/PromisorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/PromisorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/RejectedPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/RejectedPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/UnhandledRejectionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/UnhandledRejectionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/src/functions_include.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/react/promise/src/functions_include.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/CancellationQueueTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/DeferredTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FulfilledPromiseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionAllTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionAnyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionCheckTypehintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionMapTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionRaceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionReduceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionRejectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionResolveTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/FunctionSomeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/LazyPromiseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseAdapter/CallbackPromiseAdapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseAdapter/PromiseAdapterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/CancelTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/FullTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/NotifyTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/PromiseFulfilledTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/PromisePendingTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/PromiseRejectedTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/PromiseSettledTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/RejectTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/PromiseTest/ResolveTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/RejectedPromiseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/Stub/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/fixtures/SimpleFulfilledTestPromise.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/fixtures/SimpleFulfilledTestThenable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/fixtures/SimpleRejectedTestPromise.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/fixtures/SimpleTestCancellable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/react/promise/tests/fixtures/SimpleTestCancellableThenable.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="Crawl" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puppeteerJs/Init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tools.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/puppeteerJs/tools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23931624">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,27 +163,34 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/react/socket-client" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-timer" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/clue/redis-react" />
+      <path value="$PROJECT_DIR$/vendor/clue/redis-protocol" />
+    </include_path>
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="添加" />
-    <OptionsSetting value="true" id="移除" />
-    <OptionsSetting value="true" id="签出" />
-    <OptionsSetting value="true" id="更新" />
-    <OptionsSetting value="true" id="状态" />
-    <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
-  </component>
+  <component name="ProjectId" id="24BJe22f1Egf7BhGXHtFuuoOJb7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -135,16 +242,21 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="JavaScriptLanguageLevel" value="ES6" />
-    <property name="JavaScriptPreferStrict" value="false" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -162,40 +274,37 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
+      <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1043cbee-f045-4d7b-bec2-26810983d8be" name="默认的" comment="" />
       <created>1526363186511</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1526363186511</updated>
+      <workItem from="1643098138783" duration="18430000" />
+      <workItem from="1735192439020" duration="5808000" />
     </task>
     <servers />
   </component>
@@ -224,6 +333,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -234,10 +346,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env.dev">
